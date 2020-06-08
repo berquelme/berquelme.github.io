@@ -3,15 +3,24 @@
    padding: 0;
    margin: 0;
    ;	
-}
+	}
 
 
 body {
-	color: #1A1A29
-}
+	color: #1A1A29;
+	font-family: lato, sans-serif;
+	}
 
-.hero {
+h1 {
+	font-family: "Roboto Header", sans-serif;
+	font-size:  50px;
+	font-weight: bold;
+	color: #ffffff; 
+	text-align: center;
+	}
 
-width: 100vw;
-height; 100wh;
-}
+#slogan {
+	text-align: center;
+	font-family: cortado, sans-serif;
+	font-style: italic;
+}	
