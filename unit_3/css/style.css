@@ -19,6 +19,11 @@ h1 {
 	text-align: center;
 	}
 
+h3 {
+	text-align: center;
+	text-decoration: underline;
+}	
+
 #slogan {
 	text-align: center;
 	font-family: cortado, sans-serif;
@@ -37,4 +42,9 @@ h1 {
 img {
 	width: : 60%;
 	
-}
+	}
+
+.contact {
+	text-align: center;
+	padding-bottom: 40px;
+	}
