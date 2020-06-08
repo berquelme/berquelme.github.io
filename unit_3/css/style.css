@@ -26,6 +26,14 @@ h1 {
 	font-style: italic;
 	}	
 
+	ul  {
+	text-align: : center;	
+	}
+
+	.itemsleft {
+	text-align: left;	
+	}
+
 img {
 	width: : 60%;
 	
