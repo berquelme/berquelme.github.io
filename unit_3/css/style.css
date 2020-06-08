@@ -27,5 +27,6 @@ h1 {
 	}	
 
 img {
-	size: 1000px;
+	width: : 100vw;
+	height: 100vw;
 }
