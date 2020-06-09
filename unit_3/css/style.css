@@ -12,29 +12,36 @@ body {
 
 	}
 
-/*header {
-	background-color:#F1D0E3;
-    }	*/
+ header {
+	background-color:#030D14;
+	padding: 1px;
 
-div {
+    }	
+
+section {
 	text-align: center;
+
 }
 img {
 	width: 80%;
-    padding-top: 0px;
+	/*text-align: center;*/
+    /*padding-top: 0px;*/
     padding-bottom: 40px;
 	}
 
 
 h1 {
-	font-family: candara, sans-serif;
+	font-family: "Arial", sans-serif;
 	font-size:  50px;
 	font-weight: bold;
-	color: #030D14; 
+	color: #ffffff; 
 	text-align: center;
 	margin-top: 40px;
 	}
 
+h3 {
+	padding-left: 30px;
+}
 
 a {
 	color: inherit;
@@ -51,13 +58,13 @@ p {
 footer {
 	background-color: #131403;
 	text-align: center;
-	padding: 0;
+	padding:10px;
 }      	
 
-#slogan {
+#slogan{
 	text-align: center;
-	color: #1A1A29;
-	font-family: "Century Gothic", sans-serif;
+	color: #ffffff;
+	font-family: "lato", thin;
 	font-size: 20px;
 	margin-bottom: 20px;
 	}	
@@ -66,7 +73,7 @@ footer {
 	font-family: "Century Gothic", sans-serif; 	
     text-align: center;
     list-style-type: none;
-    padding: 50px;
+    padding-left: 80px;
 	}
 
 li {
@@ -80,12 +87,10 @@ li {
 	}
 
 
-.contact {
+.contact{
 	font-family: "Century Gothic", sans-serif;
 	color: #ffffff;
 	text-decoration: none;
 	text-align: center;
     margin-left: 60px;
-	margin-bottom: 10px;
-	padding-bottom: 80px;
 		}
