@@ -12,34 +12,31 @@ body {
 
 	}
 
- header {
-	background-color:#030D14;
-	padding: 1px;
-	width: 80%;
-	margin: auto;
-
-
-    }	
-
-section {
+header {
+	background-image: url(unit_3/images/samantha_hero.jpg)
+	margin: auto; 
 	text-align: center;
+	margin-bottom: 30px;
+
+    }
+
+image {
+	position: relative;
+	top: 0px;
+	margin-bottom: 40px;
+}
 
 }
-img {
-	width: 80%;
-	/*text-align: center;*/
-    /*padding-top: 0px;*/
-    padding-bottom: 40px;
-	}
-
 
 h1 {
 	font-family: "Arial", sans-serif;
 	font-size:  50px;
+	position: absolute;
+	top:50px;
 	font-weight: bold;
-	color: #ffffff; 
+	color: #000; 
 	text-align: center;
-	margin-top: 10px;
+	
 	}
 
 h3 {
@@ -70,12 +67,16 @@ footer {
 	width: 80%;
 }      	
 
+
+#stubbornh1{
+	position: relative;
+	}
 #slogan{
 	text-align: center;
-	color: #ffffff;
+	color: 000;
+	
 	font-family: "lato", thin;
 	font-size: 20px;
-	margin-bottom: 20px;
 	}	
 
 	ul  {
@@ -105,10 +106,24 @@ li {
 	}
 
 
-.contact{
+.contact {
 	font-family: "Century Gothic", sans-serif;
-	color: #ffffff;
+	color: #000000;
+	background-color: pink;
+	padding: 5px;
+	border-radius: 4px;
 	text-decoration: none;
 	text-align: center;
-    margin-left: 60px;
 		}
+
+.copyright {
+	font-family: "Century Gothic", sans-serif;
+	color: #ffffff;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+    }
+
+
+
