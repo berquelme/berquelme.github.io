@@ -1,55 +1,56 @@
 * {
+  margin: 0;
+  padding: 0;
+}
 
-   padding: 0;
-   margin: 0;
-   ;	
-	}
-
+header  {
+	background-color: #140F04; 
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+    }
 
 body {
-	margin: 0, auto;
-	color: #1A1A29;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	color: #222222;
+    }
 
-	}
+section {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 30px;
+    }
 
-header {
-	background-image: url(unit_3/images/samantha_hero.jpg)
-	margin: auto; 
+h1 {
+	color: #fff;
+    }
+
+h2 {
+	text-align: center;
+	color: #ffffff;
+	   }
+
+h3 {
 	text-align: center;
 	margin-bottom: 30px;
 
-    }
-
-image {
-	position: relative;
-	top: 0px;
-	margin-bottom: 40px;
 }
-
-}
-
-h1 {
-	font-family: "Arial", sans-serif;
-	font-size:  50px;
-	position: absolute;
-	top:50px;
-	font-weight: bold;
-	color: #000; 
-	text-align: center;
-	
-	}
-
-h3 {
-	padding: 30px auto;
-	margin: 20px auto;
-	text-align: center;
-
-}
-
 a {
-	color: inherit;
-	text-decoration: underline;
+   color: #98BEBF;
+   text-decoration: none;
    }
+
+div {
+	margin: 10px 40px;
+   } 
+
+
+img {
+   width: 75%;
+   text-align: center;  
+   }
+
 
 p {
 	font-family: lato, sans-serif;
@@ -68,13 +69,12 @@ footer {
 }      	
 
 
-#stubbornh1{
-	position: relative;
+/*#stubbornh1{
+*/
 	}
 #slogan{
 	text-align: center;
-	color: 000;
-	
+	color: #ffffff;
 	font-family: "lato", thin;
 	font-size: 20px;
 	}	
@@ -83,6 +83,7 @@ footer {
 	font-family: "Century Gothic", sans-serif; 	
     float:center;
     text-align: center;
+    margin-bottom: 50px;
 	}
 
 li {
@@ -124,6 +125,5 @@ li {
 	text-align: center;
 	padding: 10px;
     }
-
 
 
