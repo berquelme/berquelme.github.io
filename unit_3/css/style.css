@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dawning+of+a+New+Day&family=Dosis:wght@200&family=Fredericka+the+Great&family=Great+Vibes&family=Libre+Baskerville&family=Raleway:wght@500&family=Work+Sans:ital,wght@1,100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,33 +7,41 @@
 
 header  {
 	background-color: #140F04; 
-	padding: 10px;
+	/*background-image: */
+	width: 80%;
+	padding: 10px 0px;
 	text-align: center;
 	margin: auto;
     }
 
 body {
-	font-family: helvetica, arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: #222222;
     }
 
-section {
+main {
 	margin: auto;
 	text-align: center;
 	padding-bottom: 30px;
     }
 
 h1 {
+	font-family: Raleway, sans-serif;
+	letter-spacing: 5px;
 	color: #fff;
     }
 
 h2 {
+	font-family: 'work sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding-top: 10px;
 	text-align: center;
 	color: #ffffff;
 	   }
 
 h3 {
+	font-family: Raleway, sans-serif;
 	text-align: center;
 	margin-bottom: 30px;
 
@@ -39,24 +49,28 @@ h3 {
 a {
    color: #98BEBF;
    text-decoration: none;
+   border-bottom: 1px solid #98BEBF;
+   padding-bottom: 2px;
    }
 
-div {
-	margin: 10px 40px;
+article {
+	margin: 10px inherit;
+	padding-top: 30px;
    } 
 
 
 img {
-   width: 75%;
-   text-align: center;  
+   width: inherit;
+   text-align: center;
+   width: 80%  
    }
 
 
 p {
-	font-family: lato, sans-serif;
 	text-align: justify;
-	width: 80%;
+	width: 600px;
 	margin: auto;
+	line-height: 1.5em;
     } 
 
 footer {
@@ -72,15 +86,14 @@ footer {
 /*#stubbornh1{
 */
 	}
-#slogan{
+#slogan {
 	text-align: center;
 	color: #ffffff;
-	font-family: "lato", thin;
 	font-size: 20px;
 	}	
 
 	ul  {
-	font-family: "Century Gothic", sans-serif; 	
+	font-family: Raleway, "Century Gothic", sans-serif; 	
     float:center;
     text-align: center;
     margin-bottom: 50px;
@@ -115,6 +128,7 @@ li {
 	border-radius: 4px;
 	text-decoration: none;
 	text-align: center;
+	border-bottom: none;
 		}
 
 .copyright {
