@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dawning+of+a+New+Day&family=Dosis:wght@200&family=Fredericka+the+Great&family=Great+Vibes&family=Libre+Baskerville&family=Raleway:wght@500&family=Work+Sans:ital,wght@1,100&display=swap');
 
 * {
   margin: 0;
@@ -26,10 +26,14 @@ main {
     }
 
 h1 {
+	font-family: Raleway, sans-serif;
+	letter-spacing: 5px;
 	color: #fff;
     }
 
 h2 {
+	font-family: 'work sans', sans-serif;
+	font-size: 16px;
 	letter-spacing: 2px;
 	padding-top: 10px;
 	text-align: center;
@@ -37,17 +41,20 @@ h2 {
 	   }
 
 h3 {
-	margin-bottom: 30px;
+	font-family: Raleway, sans-serif;
 	text-align: center;
+	margin-bottom: 30px;
 
 }
 a {
    color: #98BEBF;
+   text-decoration: none;
+   border-bottom: 1px solid #98BEBF;
+   padding-bottom: 2px;
    }
 
 article {
-	margin: 10px auto;
-	width: 80%;
+	margin: 10px inherit;
 	padding-top: 30px;
    } 
 
@@ -61,7 +68,7 @@ img {
 
 p {
 	text-align: justify;
-	width: 80%
+	width: 600px;
 	margin: auto;
 	line-height: 1.5em;
     } 
