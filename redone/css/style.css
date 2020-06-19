@@ -10,37 +10,46 @@ body {
   font-size: 16px;	
 }
 
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
 
 .icons{ 
   height: 40px;
+  float: left;
+  margin: 
  }
 #herobground {
   background-image: url("../images/samantha_hero.jpg");
   height: 80vh;
   background-repeat: no-repeat;
   margin: 0 auto;
-  width: 80%;
  
 }
 
 main {
   margin: 0 auto;
+  width: 80%;
 }
 
 article {
   margin: 0 auto;
-  width: 80%;
+/*  width: 80%;*/
 }
 
 
 .paracolum {
   float: left;
-  width: 40%;
+  width: 50%;
 }
 
 .columright {
   float: left;
-  width: 40%;
+  width: 50%;
   background-color: #ccc;
 }
 
