@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dawning+of+a+New+Day&family=Dosis:wght@200&family=Fredericka+the+Great&family=Great+Vibes&family=Libre+Baskerville&family=Raleway:wght@500&family=Work+Sans:ital,wght@1,100&display=swap');
 
 
 * {
@@ -16,8 +17,6 @@ header {
   width: 80%;
   margin: 0 auto;
 }
-
-
 
 
 .icons{ 
@@ -45,8 +44,17 @@ article {
 
 
 p {
-  padding: 0 10px;
+  padding: 10px 10px;
 }
+
+a {
+   color: #98BEBF;
+   text-decoration: none;
+   border-bottom: 1px solid #98BEBF;
+   padding-bottom: 2px;
+   }
+
+
 
 .paracolum {
   float: left;
@@ -100,6 +108,7 @@ li {
      padding: 40px;
      width: 80%;
 }
+
 
 
 footer {
