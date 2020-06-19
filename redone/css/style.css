@@ -60,16 +60,32 @@ p {
 }
 
 
+.verticalpic {
+  width: 30%;
+  float: left;
+  padding: 1%;
+}
+
+.pic_hor {
+  width: 32%;
+  float: left;
+ padding: 10px;
+ 
+}
+
 h4 {
   text-align: center;
   padding: 40px 0;
   clear: left;
+
+
 
 }
 
 h3 {
   padding: 25px;
   text-align: center;
+  clear: left;
 }
 
 ul  {
@@ -93,7 +109,7 @@ footer {
   padding:10px;
   width: 80%;
 }
-
+2
 .contact {
   font-family: "Century Gothic", sans-serif;
   color: #000000;
