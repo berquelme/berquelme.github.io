@@ -6,13 +6,43 @@
 
 
 body {
-  width: 1024px;
   font-family: lato, sans-serif;
   font-size: 16px;	
 }
 
-section {
-	background-color: red;
-	width: 100%
-	height: 100%;
+#herobground {
+  background-image: url("../images/samantha_hero.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 80%;
+ 
+}
+
+main {
+  margin: 0 auto;
+}
+
+article {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+.paracolum {
+  float: left;
+  width: 40%;
+}
+
+.columright {
+  float: left;
+  width: 40%;
+  background-color: #ccc;
+}
+
+
+h3 {
+  clear: left;
+  padding: 25px;
+  text-align: center;
 }
