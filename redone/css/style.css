@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dawning+of+a+New+Day&family=Dosis:wght@200&family=Fredericka+the+Great&family=Great+Vibes&family=Libre+Baskerville&family=Raleway:wght@500&family=Work+Sans:ital,wght@1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@300&family=Rochester&display=swap');
+</style>
 
 * {
   padding: 0;
@@ -14,28 +14,36 @@ body {
 }
 
 header {
-  width: 80%;
-  margin: 0 auto;
+/*  margin: 0 auto;*/
 }
 
+
+.wrapper {
+  width: 100%;
+}
 
 .icons{ 
   height: 40px;
   float: left;
-  margin: 
+  padding-top: 10px;
  }
+
 #herobground {
   background-image: url("../images/samantha_hero.jpg");
   height: 80vh;
   background-size:100%;
   background-repeat: no-repeat;
   margin: 0 auto;
- 
+}
+
+#slogan {
+  font-family: 'Rochester', cursive;
+  clear: left;
+  padding-left: 120px;
 }
 
 main {
   margin: 0 auto;
-  width: 80%;
 }
 
 article {
@@ -56,49 +64,45 @@ a {
 
 
 
-.paracolum {
+.columleft {
   float: left;
   width: 50%;
 }
 
 .columright {
-  float: left;
+  float: right;
   width: 50%;
   background-color: #ccc;
 }
 
-
-.verticalpic {
-  width: 30%;
-  float: left;
-  padding: 1%;
+.gallery {
+  clear: right;
 }
 
-.pic_hor {
+.picsgallery {
   width: 32%;
   float: left;
- padding: 10px;
- 
+  padding: 0 4px 8px 0;
 }
 
-
-
-h4 {
-  text-align: center;
-  padding: 40px 0;
+.secthree {
   clear: left;
+} 
+
+h1 {
+font-family: 'Raleway', 'Century Gothic' sans-serif;
+padding-left: 20px;
+clear: left;
 }
 
-
-
-h3 {
+h2 {
+  font-family: 'Raleway', 'Century Gothic' sans-serif;
   padding: 25px;
   text-align: center;
-  clear: left;
 }
 
 ul  {
-  font-family: Raleway, "Century Gothic", sans-serif;   
+  font-family: 'Raleway', 'Century Gothic' sans-serif;
     text-align: center;
     margin-bottom: 50px;
   }
@@ -117,11 +121,10 @@ footer {
   text-align: center;
   margin: auto;
   padding:10px;
-  width: 80%;
 }
-2
+
 .contact {
-  font-family: "Century Gothic", sans-serif;
+  font-family: 'Century Gothic', sans-serif;
   color: #000000;
   background-color: pink;
   padding: 5px;
@@ -132,7 +135,7 @@ footer {
     }
 
 .copyright {
-  font-family: "Century Gothic", sans-serif;
+  font-family: 'Century Gothic', sans-serif;
   color: #ffffff;
   font-size: 10px;
   text-decoration: none;
