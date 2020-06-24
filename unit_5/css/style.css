@@ -30,16 +30,21 @@ section {
 .info {
 	background-color: #E89C4A;
 	border: 1px black solid;
-
+	padding: 20px;
 }
 .columleft {
-	width: 40%;
+	width: 50%;
 	float: left;
 }
 
 
+.columright {
+	width: 50%;
+	float:right;
+}	
+
 .gallery {
-	clear: left;
+	clear: both;
 }
 
 li {
