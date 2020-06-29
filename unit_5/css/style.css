@@ -31,20 +31,22 @@ section {
 	background-color: #E89C4A;
 	border: 1px black solid;
 	padding: 20px;
+	display: inline-block;
+
 }
 .columleft {
-	width: 50%;
+	width: 45%;
 	float: left;
 }
 
 
 .columright {
-	width: 50%;
+	width: 45%;
 	float:right;
 }	
 
 .gallery {
-	clear: both;
+	clear: right;
 }
 
 li {
