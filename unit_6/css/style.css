@@ -86,7 +86,7 @@ a {
   background-size:100%;
   background-repeat: no-repeat;
   margin: 0 auto;
-  border-top-color: #73450f solid 2px;
+  border-top: 1px #73450f solid;
   }
 
 
