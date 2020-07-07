@@ -62,9 +62,12 @@ nav a {
 	letter-spacing: 1px;
 	padding: 5px 10px;
 	font-weight: 500;
-
-
 }
+
+a {
+ 	text-decoration: none;
+}
+
 
 #herobground {
   background-image: url("../images/samantha_hero.jpg");
@@ -75,10 +78,10 @@ nav a {
   }
 
 
-.info {
+/*.info {
   width: 100%;
   margin: 0 auto;
-}
+}*/
 
 .columleft {
   text-align: justify;
@@ -99,3 +102,48 @@ nav a {
   padding: 5px;
 /*  padding: 0 4px 8px 0;*/
 }
+
+.kids {
+	clear: left;
+
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: auto;
+  padding:10px;
+}
+
+footer a {
+	color: #bdbdbd;
+	font-weight: 600;
+	width: 25px;
+
+}
+
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+  color: #f2f2f2;
+  background-color: #bdbdbd;
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: none;
+    }
+
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  color: #bdbdbd;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+    }
+
+ .picfooter {
+ 	width: 50px;
+ }   
