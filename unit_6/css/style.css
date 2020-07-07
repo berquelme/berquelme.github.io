@@ -27,18 +27,29 @@ header {
 h1 {
 	font-size: 40px;
 	font-weight: 500;
-	padding: 10px 10px 5px 30px; 
+	padding: 10px 10px 0px 30px; 
+	margin: 0px;
+	float: left;
+}
+
+h3 {
+	margin: 0; 
+}
+
+#headtop {
+	float: left;
+
 }
 
 #slogan {
 	font-family: 'Poppins', sans-serif;
-	font-size: :20px;
+	font-size: 16px;
 	padding: 0 30px;
 	color: #73450f;
 }
 
 
-header h1 h2 {
+header h1 h3 {
 float: left;
 }
 
@@ -53,10 +64,10 @@ float: left;
 
 nav {
 	padding-right: 15px;
+	float: right;
 }
 
 nav a {
-	float: left;
 	color: #73450f;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -118,8 +129,9 @@ footer {
 
 footer a {
 	color: #bdbdbd;
-	font-weight: 600;
+	font-weight: 400;
 	width: 25px;
+	text-align: center;
 
 }
 
@@ -128,8 +140,8 @@ footer a {
   font-family: 'Montserrat', sans-serif;
   color: #f2f2f2;
   background-color: #bdbdbd;
-  padding: 5px;
-  border-radius: 4px;
+  /*padding: 5px;
+  border-radius: 4px;*/
   text-decoration: none;
   text-align: center;
   border-bottom: none;
@@ -146,4 +158,5 @@ footer a {
 
  .picfooter {
  	width: 50px;
+ 	padding: 0 10px;
  }   
