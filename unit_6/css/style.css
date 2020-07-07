@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+</style> 
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;	
+}
+
+h2 {
+	text-align: center;
+}
+.wrapper {
+  width: 100%;
+}
+
+header {
+	background: #efefe7;
+
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+	padding: 10px 10px 5px 30px; 
+}
+
+#slogan {
+	font-family: 'Poppins', sans-serif;
+	font-size: :20px;
+	padding: 0 30px;
+	color: #73450f;
+}
+
+
+header h1 h2 {
+float: left;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+nav {
+	padding-right: 15px;
+}
+
+nav a {
+	float: left;
+	color: #73450f;
+	text-decoration: none;
+	letter-spacing: 1px;
+	padding: 5px 10px;
+	font-weight: 500;
+
+
+}
+
+#herobground {
+  background-image: url("../images/samantha_hero.jpg");
+  height: 80vh;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  }
+
+
+.info {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.columleft {
+  text-align: justify;
+  float: left;
+  width: 45%;
+}
+/*.columright {
+  text-align: justify;
+  float: left;
+  width: 48%;
+/*  background-color: #ccc;
+}*/
+
+
+.picsgallery {
+  width: 31%;
+  float: left;
+  padding: 5px;
+/*  padding: 0 4px 8px 0;*/
+}
