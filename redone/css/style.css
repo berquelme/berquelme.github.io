@@ -77,7 +77,7 @@ a {
 
 .columright {
   text-align: justify;
-  float: right;
+  float: left;
   width: 48%;
 /*  background-color: #ccc;*/
 }

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
-</style> 
 
 * {
 	padding: 0;
@@ -15,6 +14,7 @@ body {
 
 h2 {
 	text-align: center;
+	padding: 10px;
 }
 .wrapper {
   width: 100%;
@@ -91,27 +91,28 @@ a {
 
 
 .info {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .columleft {
   text-align: justify;
   float: left;
-  width: 40%;
+  width: 50%;
+  padding: 2%;
 }
-.columright {
+/*.columright {
   text-align: justify;
-  float: right;
-  width: 40%;
-  background-color: #ccc;
-}
+  float: left;
+  width: 48%;
+}*/
 
 
 .picsgallery {
-  width: 31%;
+  width: 33.33%;
   float: left;
   padding: 5px;
+  margin: 0 auto;
 /*  padding: 0 4px 8px 0;*/
 }
 
@@ -120,29 +121,48 @@ a {
 
 }
 
+.berabout {
+	width: 80%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.bio {
+	float: left;
+	width: 60%;
+	padding-left: 50px;
+} 
+
+.bertor {
+	width: 20%;
+}
 
 footer {
   background-color: #f2f2f2;
+  color: #bdbdbd;
   text-align: center;
   margin: auto;
   padding:10px;
+  font-weight: 700;
 }
 
 footer a {
 	color: #bdbdbd;
-	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
 	width: 25px;
 	text-align: center;
+	font-weight: 700;
 
 }
 
+footer > * {
+	vertical-align: middle;
+
+}
 
 .contact {
   font-family: 'Montserrat', sans-serif;
-  color: #f2f2f2;
-  background-color: #bdbdbd;
-  /*padding: 5px;
-  border-radius: 4px;*/
+  color: #bdbdbd;
   text-decoration: none;
   text-align: center;
   border-bottom: none;
@@ -152,6 +172,7 @@ footer a {
   font-family: 'Montserrat', sans-serif;
   color: #bdbdbd;
   font-size: 16px;
+  font-weight: 500;
   text-decoration: none;
   text-align: center;
   padding: 10px;
