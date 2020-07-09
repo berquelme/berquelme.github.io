@@ -151,11 +151,11 @@ footer a {
 	font-family: 'Montserrat', sans-serif;
 	width: 25px;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 600;
 
 }
 
-footer > * {
+footer * {
 	vertical-align: middle;
 
 }
