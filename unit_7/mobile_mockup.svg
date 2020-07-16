@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1125 2436" style="enable-background:new 0 0 1125 2436;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EFEFE7;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#9B6C38;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#CE8F51;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#BDBDBD;}
+	.st5{fill:none;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-size:33px;}
+	.st8{font-size:77.7884px;}
+	.st9{fill:#FFFFFF;}
+	.st10{font-family:'CallunaSans-Semibold';}
+	.st11{font-size:51.5925px;}
+</style>
+<rect x="3.5" y="1.5" class="st0" width="1118" height="2433"/>
+<path class="st1" d="M1089.5,182.5H30.5c-7.1,0-13-5.9-13-13v-130c0-7.2,5.9-13,13-13h1059c7.2,0,13,5.8,13,13v130
+	C1102.5,176.6,1096.7,182.5,1089.5,182.5z"/>
+<path class="st2" d="M1074.1,1021.5H45.9c-15.6,0-28.4-12.8-28.4-28.4V305.9c0-15.6,12.8-28.4,28.4-28.4h1028.2
+	c15.6,0,28.4,12.8,28.4,28.4v687.2C1102.5,1008.7,1089.7,1021.5,1074.1,1021.5z"/>
+<path class="st3" d="M1102.5,908v81.4c0,17.7-12.8,32.1-28.4,32.1H45.9c-15.6,0-28.4-14.5-28.4-32.1v-74.8"/>
+<path class="st2" d="M1074.1,2092.5H45.9c-15.6,0-28.4-12.8-28.4-28.4v-687.2c0-15.6,12.8-28.4,28.4-28.4h1028.2
+	c15.6,0,28.4,12.8,28.4,28.4v687.2C1102.5,2079.7,1089.7,2092.5,1074.1,2092.5z"/>
+<path class="st3" d="M1102.5,1979v81.4c0,17.7-12.8,32.1-28.4,32.1H45.9c-15.6,0-28.4-14.5-28.4-32.1v-74.8"/>
+<path class="st4" d="M1093.3,2411.5H32.7c-6.7,0-12.2-5.5-12.2-12.2v-113.5c0-6.7,5.5-12.2,12.2-12.2h1060.5
+	c6.7,0,12.2,5.5,12.2,12.2v113.5C1105.5,2406,1100,2411.5,1093.3,2411.5z"/>
+<rect x="44" y="1069" class="st5" width="1032" height="232"/>
+<text transform="matrix(1 0 0 1 44 1092.4038)"><tspan x="0" y="0" class="st6 st7">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum</tspan><tspan x="1015.4" y="0" class="st6 st7">-</tspan><tspan x="0" y="39.6" class="st6 st7">my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </tspan><tspan x="0" y="79.2" class="st6 st7">Ut wisi enim ad minim veniblandit praesent luptatum zzril delenit augue </tspan><tspan x="0" y="118.8" class="st6 st7">duis dolore te feugait nulla facillaoreet dolore magna aliquam erat volut</tspan><tspan x="985.4" y="118.8" class="st6 st7">-</tspan><tspan x="0" y="158.4" class="st6 st7">pat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper </tspan><tspan x="0" y="198" class="st6 st7">suscipit lobortis nisl ut aliquip ex ea commodo consequat.</tspan></text>
+<text transform="matrix(1 0 0 1 44.1797 119.4248)" class="st6 st8">BER ALMEIDA</text>
+<rect x="925" y="44" width="151" height="26"/>
+<rect x="925" y="84" width="151" height="26"/>
+<rect x="925" y="131" width="151" height="26"/>
+<text transform="matrix(1 0 0 1 46.6201 976.5811)" class="st9 st10 st11">PICTURE GALLERY</text>
+<text transform="matrix(1 0 0 1 46.6201 2051.5811)" class="st9 st10 st11">DESIGN GALLERY</text>
+<image style="overflow:visible;" width="130" height="130" xlink:href="../unit_6/images/facebook_logo.png"  transform="matrix(0.6738 0 0 0.6738 413 2296)">
+</image>
+<image style="overflow:visible;" width="130" height="130" xlink:href="../unit_6/images/instagram_logo.png"  transform="matrix(0.6738 0 0 0.6738 546 2296)">
+</image>
+</svg>
