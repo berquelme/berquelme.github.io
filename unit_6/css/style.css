@@ -116,11 +116,11 @@ a {
 /*  padding: 0 4px 8px 0;*/
 }
 
-.bar10logo {
-  height: 500px;
-}
-.kids {
-	clear: left;
+.designs {
+  width: 33.33%;
+  float: left;
+  padding: 5px;
+  margin: 0 auto;
 
 }
 
