@@ -117,17 +117,21 @@ a {
 }
 
 .designs {
-  width: 33.33%;
   float: left;
   padding: 5px;
   margin: 0 auto;
-
 }
+
+.thirdwidth {
+  width: 33.33%
+}
+
 
 .berabout {
 	width: 80%;
 	text-align: left;
 	margin: 0 auto;
+  clear: left;
 }
 
 .bio {
