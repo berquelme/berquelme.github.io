@@ -203,17 +203,28 @@ footer * {
 
   @media only screen and (max-width: 480px) {
  
+   h1 {
+    text-align: center;
+    padding: .5em;
+   } 
+
    h2 {
     padding: 1.5em;
+    font-weight: 800;
    }
    
    nav a {
     display: block;
     float: none;
     text-align: center;
-    padding: 2em;
     background-color: #73450f;
     color:#efefe7;
+    padding: .5em;
+    margin-top: 1em;
+   }
+
+   #herobground {
+    height: 300px;
    }
 
     .columleft {
@@ -222,4 +233,28 @@ footer * {
     margin: 0 auto;
     float: none;
    }
+
+   .picsgallery {
+    width: 100%;
+    float: none;
+    padding: .5em 2em;
+   }
+
+    .thirdwidth {
+    width: 100%;
+    float: none;
+    padding: .5em 1.5em;
+    }
+
+   .bio {
+    float:none;
+    width: 100%;
+    padding: 2em 0 3em;
+   }
+
+   .bertor {
+    width: 100%;
+    text-align:right;
+   }
+
  }
