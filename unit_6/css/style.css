@@ -213,7 +213,7 @@ footer * {
  }
 
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
  
   
   #headtop {
@@ -239,7 +239,7 @@ footer * {
    }
 
     .columleft {
-    width: 50%;  
+    width: 45%;  
     margin: 0 auto;
     float: left;
     }
