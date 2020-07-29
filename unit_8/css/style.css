@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin: 0;	
+}
+
+h2 {
+	text-align: center;
+	padding: 1.5em;
+}
+.wrapper {
+  width: 100%;
+}
+
+header {
+	background: #efefe7;
+
+}
+
+h1 {
+	font-size: 2.66em;
+	font-weight: 500;
+	padding: 10px 10px 0px 30px; 
+	margin: 0px;
+}
+
+h3 {
+	margin: 0; 
+}
+
+#headtop {
+	float: left;
+
+}
+
+#slogan {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	padding: 0 30px 10px;
+	color: #73450f;
+}
+
+
+header h1 h3 {
+float: left;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+nav {
+	padding: 15px;
+	float: right;
+}
+
+nav a {
+	color: #73450f;
+	text-decoration: none;
+	letter-spacing: 1px;
+	padding: 5px 10px;
+	font-weight: 500;
+}
+
+a {
+ 	text-decoration: none;
+}
+
+
+#herobground {
+  background-image: url("../images/samantha_hero.jpg");
+  height: 80vh;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-top: 1px #73450f solid;
+  }
+
+
+.info {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.columleft {
+  text-align: justify;
+  float: left;
+  width: 50%;
+  padding: 2%;
+}
+/*.columright {
+  text-align: justify;
+  float: left;
+  width: 48%;
+}*/
+
+
+.picsgallery {
+  width: 33.33%;
+  float: left;
+  padding: 5px;
+  margin: 0 auto;
+/*  padding: 0 4px 8px 0;*/
+}
+
+.designs {
+  float: left;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.thirdwidth {
+  width: 33%;
+  margin: 0 auto;
+}
+
+
+.berabout {
+	width: 80%;
+	text-align: left;
+	margin: 0 auto;
+  clear: left;
+}
+
+.bio {
+	float: left;
+	width: 60%;
+	padding-left: 50px;
+} 
+
+.bertor {
+	width: 20%;
+}
+
+footer {
+  background-color: #f2f2f2;
+  color: #bdbdbd;
+  text-align: center;
+  margin: auto;
+  padding:10px;
+  font-weight: 700;
+}
+
+footer a {
+	color: #bdbdbd;
+	font-family: 'Montserrat', sans-serif;
+	width: 25px;
+	text-align: center;
+	font-weight: 600;
+
+}
+
+footer * {
+	vertical-align: middle;
+
+}
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+  color: #bdbdbd;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: none;
+    }
+
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  color: #bdbdbd;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+    }
+
+ .picfooter {
+ 	width: 50px;
+ 	padding: 0 10px;
+ }   
+
+@media (max-width: 800px) {
+ 
+  
+  #headtop {
+    float: none;
+  }
+
+  #slogan {
+    display: none;
+  }
+
+  nav {
+    float: none;
+    padding-top: .5em;
+  }
+
+
+  h2 {
+    padding: 1.5em;
+  }
+
+  #herobground {
+    height: 800px;
+   }
+
+    .columleft {
+    width: 370px;
+    margin: 0 auto;
+    float: left;
+    }
+
+    .thirdwidth {
+    width: 100%;
+    float: left;
+    padding: .5em 1.5em;
+    }
+
+
+   }
+
+  @media only screen and (max-width: 480px) {
+ 
+  #headtop {
+    float: none;
+    padding-bottom: .5em;
+  }
+
+  #slogan {
+    display: none;
+  }
+
+   h1 {
+    text-align: center;
+   } 
+
+   h2 {
+    padding: 1.5em;
+    font-weight: 800;
+   }
+   
+   nav a {
+    display: block;
+    float: none;
+    text-align: center;
+    background-color: #73450f;
+    color:#efefe7;
+    padding: .5em;
+    margin-top: .5em;
+   }
+
+   #herobground {
+    height: 300px;
+   }
+
+    .columleft {
+    display: block;
+    width: 370px;
+    margin: 0 auto;
+    float: none;
+   }
+
+   .picsgallery {
+    width: 100%;
+    float: none;
+    padding: .5em 2em;
+   }
+
+    .thirdwidth {
+    width: 100%;
+    float: none;
+    padding: .5em 1.5em;
+    }
+
+   .bio {
+    float:none;
+    width: 100%;
+    padding: 2em 0 3em;
+   }
+
+   .bertor {
+    width: 100%;
+    text-align:right;
+   }
+
+ }

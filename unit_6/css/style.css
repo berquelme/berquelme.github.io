@@ -116,7 +116,7 @@ a {
 /*  padding: 0 4px 8px 0;*/
 }
 
-.designs {
+/*.designs {
   float: left;
   padding: 5px;
   margin: 0 auto;
@@ -125,7 +125,7 @@ a {
 .thirdwidth {
   width: 33%;
   margin: 0 auto;
-}
+}*/
 
 
 .berabout {
@@ -191,21 +191,103 @@ footer * {
  	padding: 0 10px;
  }   
 
-@media (max-width: 793px) {
+ @media only screen and (max-width: 1071px) {
+
+  #slogan {
+    display: none;
+
+  }  
+ }
+
+@media only screen and (max-width: 1030px) {
+
+  .bio {
+  float: left;
+  width: 40%;
+} 
+  
+  .bertor {
+  width: 40%;
+
+  
+ }
+
+
+@media (max-width: 800px) {
  
+  
+  #headtop {
+    float: none;
+  }
+
+  #slogan {
+    display: none;
+  }
+
   nav {
     float: none;
-}
+    padding-top: .5em;
+  }
+
 
   h2 {
     padding: 1.5em;
   }
 
+  #herobground {
+    height: 300px;
+   }
+
+    .columleft {
+    width: 50%;  
+    margin: 0 auto;
+    float: left;
+    }
+
+    .thirdwidth {
+    width: 100%;
+    float: left;
+    padding: .5em 1.5em;
+    }
+
+    .bio {
+    float: left;
+    width: 40%;
+} 
+  
+    .bertor {
+    width: 40%;
+
+   }
+
+}
+
+
+ @media only screen and (max-width: 485px) {
+
+    .bertor {
+    width: 60%;
+    }
+
+    .bio {
+    float: left;
+    width: 40%;
+}
+
+
   @media only screen and (max-width: 480px) {
  
+  #headtop {
+    float: none;
+    padding-bottom: .5em;
+  }
+
+  #slogan {
+    display: none;
+  }
+
    h1 {
     text-align: center;
-    padding: .5em;
    } 
 
    h2 {
@@ -220,7 +302,7 @@ footer * {
     background-color: #73450f;
     color:#efefe7;
     padding: .5em;
-    margin-top: 1em;
+    margin-top: .5em;
    }
 
    #herobground {
@@ -258,3 +340,11 @@ footer * {
    }
 
  }
+
+/* @media only screen and (min-width: 300px) {
+
+  #wrapper {
+    width: 320px;
+  }
+ }*/
+
