@@ -116,7 +116,7 @@ a {
 /*  padding: 0 4px 8px 0;*/
 }
 
-.designs {
+/*.designs {
   float: left;
   padding: 5px;
   margin: 0 auto;
@@ -125,7 +125,7 @@ a {
 .thirdwidth {
   width: 33%;
   margin: 0 auto;
-}
+}*/
 
 
 .berabout {
@@ -191,7 +191,29 @@ footer * {
  	padding: 0 10px;
  }   
 
-@media (max-width: 800px) {
+ @media only screen and (max-width: 1071px) {
+
+  #slogan {
+    display: none;
+
+  }  
+ }
+
+@media only screen and (max-width: 1030px) {
+
+  .bio {
+  float: left;
+  width: 40%;
+} 
+  
+  .bertor {
+  width: 40%;
+
+  
+ }
+
+
+@media only screen and (max-width: 800px) {
  
   
   #headtop {
@@ -213,11 +235,11 @@ footer * {
   }
 
   #herobground {
-    height: 800px;
+    height: 300px;
    }
 
     .columleft {
-    width: 370px;
+    width: 45%;  
     margin: 0 auto;
     float: left;
     }
@@ -228,8 +250,30 @@ footer * {
     padding: .5em 1.5em;
     }
 
+    .bio {
+    float: left;
+    width: 40%;
+} 
+  
+    .bertor {
+    width: 40%;
 
    }
+
+}
+
+
+ @media only screen and (max-width: 485px) {
+
+    .bertor {
+    width: 60%;
+    }
+
+    .bio {
+    float: left;
+    width: 40%;
+}
+
 
   @media only screen and (max-width: 480px) {
  
@@ -296,3 +340,11 @@ footer * {
    }
 
  }
+
+/* @media only screen and (min-width: 300px) {
+
+  #wrapper {
+    width: 320px;
+  }
+ }*/
+
