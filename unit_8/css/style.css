@@ -239,7 +239,7 @@ footer * {
    }
 
     .columleft {
-    width: 45%;  
+    width: 50%;  
     margin: 0 auto;
     float: left;
     }
@@ -262,6 +262,12 @@ footer * {
 
 }
 
+@media only screen and (max-width: 600px) {
+
+  #herobground {
+    height: 300px;
+
+}  
 
  @media only screen and (max-width: 485px) {
 
@@ -341,10 +347,10 @@ footer * {
 
  }
 
-/* @media only screen and (min-width: 300px) {
+ @media only screen and (min-width: 300px) {
 
   #wrapper {
     width: 320px;
   }
- }*/
+ }
 
