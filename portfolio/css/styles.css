@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Kanit:wght@500&family=Open+Sans:wght@700&family=Playfair+Display&display=swap');
-</style> 
+ 
 
 /*
 COLOR PALETTE
@@ -11,6 +11,12 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #A1C6D7 - blue light
 */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 
 /* Global styles
@@ -18,16 +24,27 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 body {
   color: #343434;
   margin: 0;
-  padding: 0;  
-  font-family: 'Playfair Display', serif;
+  padding: 0;
+  line-height: 1.5;
+  font-family: 'playfair Display' serif;
+
+}
+
+p,ul {
+  font: 16px 'Playfair Display', 'courier', Georgia, serif;
+  letter-spacing: 0.06em;
 }
 
 h1 {
   font-family: 'Open Sans', 'Kanit', sans-serif;
+  font-size: 50px;
+  color:  #FFE66D;
+  margin-bottom: 5px;
 }
 
 h2 {
   font-family: 'Alata', sans-serif;
+  font-size: 25px;
   margin: 0;
 }
 
@@ -35,6 +52,12 @@ h3 {
   font-family: 'Kanit', sans-serif;
   padding: 20px 0;
 }
+
+h1,h2 {
+  font-weight: 300;
+  margin: 0 auto;
+}
+
 img {
   width: 300px;
 }
@@ -50,16 +73,21 @@ a:hover{
 .content-wrap {
   width: 800px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
+  background: darksalmon;
   color: #F7FFF7;
 }
 
+header p {
+  font: 16px 'Alata', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
 
 /* Projects
 ------------------------------------*/
@@ -78,10 +106,28 @@ header {
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
+  font-family: 'Alata','lato', serif;
+  font-weight: 100;
 }
 .projects .btn:hover {
   background: rgba(47, 48, 97, 80%);
 }
+
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+
+.project-item h3 {
+  margin-bottom: 10px;
+}
+
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+
 
 /* Work Experience
 ------------------------------------*/

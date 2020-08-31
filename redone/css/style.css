@@ -98,13 +98,13 @@ a {
 } 
 
 h1 {
-font-family: 'Raleway', 'Century Gothic' sans-serif;
+font-family: 'Raleway', 'Century Gothic', sans-serif;
 padding-left: 20px;
 clear: left;
 }
 
 h2 {
-  font-family: 'Raleway', 'Century Gothic' sans-serif;
+  font-family: 'Raleway', 'Century Gothic', sans-serif;
   padding: 25px;
   font-weight: 800;
   text-align: center;
