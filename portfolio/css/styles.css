@@ -231,6 +231,7 @@ footer {
 .contact-list {
   display: flex;
   justify-content: center;
+  padding: 5px;
 }
 }
 
@@ -248,7 +249,7 @@ footer {
 
   footer a {
     border-bottom: none;
-    padding-bottom: 0.5em;
+    /* padding-bottom: 0.5em; */
   }
 
 } 
