@@ -51,7 +51,7 @@ h2 {
 h3 {
   font-family: 'Kanit', sans-serif;
   padding-top: 1.5em;
-  margin-bottom: 0.3em;
+
   
 }
 
@@ -60,11 +60,11 @@ h1,h2 {
   margin: 0 auto;
 }
 
-h3 + p {
+.item-details h3 + p {
   font-style: italic;
 }
 
-h3  ~ p {
+.item-details h3  ~ p {
   margin: 0;
 }
 
@@ -81,11 +81,20 @@ a:hover{
 }
 
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
+  width: 70%; 
   margin: 0 auto;
   padding: 10px 0;
 }
 
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 1.5em 0;
+}
+
+.divider > section:last-of-type {
+  border-bottom: none;
+}
 /* Profile
 ------------------------------------*/
 header {
@@ -126,19 +135,19 @@ header p {
 
 .project-item {
   overflow: hidden;
-  border-bottom: 1px dashed #343434;
-  padding: 1.5em 0;
+
 }
 
 .project-item h3 {
   margin-top: 0;
-  margin-bottom: -1em;
+  margin-bottom: 1em;
 }
 
 .project-item img {
   float: left;
   margin-right: 1.5em;
 }
+
 
 
 /* Work Experience
@@ -153,8 +162,10 @@ header p {
   column-gap: 1.3em;
 }
 
+
 .job-item h3 {
   margin-top: 5px;
+  margin-bottom: -0em;
   color: #343434;
 }  
 
@@ -168,6 +179,12 @@ header p {
 
 /* Education
 ------------------------------------*/
+.education {
+  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-size: cover;
+  background-position:top right;
+  scroll-padding-bottom: 3em;
+}
 
 
 
@@ -176,14 +193,13 @@ header p {
 footer {
   background: #343434;
   color: #F7FFF7;
-  text-align: center;
+
 }
 
 .contact-list {
   list-style-type: none;
   padding: 0;
-  display: flex;
-  justify-content: center;
+
 }
 
 .contact-list a {
@@ -191,3 +207,48 @@ footer {
   display: inline-block;
   font: 16px 'Alata', sans-serif;
 }
+
+/* Responsive Styles
+------------------------------------*/
+
+
+@media screen and (min-width:750px) {
+
+  header, footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 1.3em;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media screen and (max-width:749px) {
+  h1 {
+    font-size: 35px;
+    line-height: 0.8;
+    padding-bottom: 0.5em;
+  }
+
+  h2 {
+    line-height: 1;
+    padding-bottom: 0.5em;
+  }
+
+  footer a {
+    border-bottom: none;
+    padding-bottom: 0.5em;
+  }
+
+} 
