@@ -59,10 +59,17 @@ footer {
 
   aside {
     clear: both;
+    float: right;
   }
 }
 @media (min-widht: 850px) {
   main {
     width: 50%;
+  }
+  aside {
+    width: 25%;
+  }
+  footer {
+    clear: both;
   }
 }
