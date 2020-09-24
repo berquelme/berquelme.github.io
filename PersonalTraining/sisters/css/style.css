@@ -30,6 +30,7 @@ nav > a {
 }	
 .bloqueuno {
 	background: linear-gradient(180deg, hsla(330, 68%, 91%, 0.9) 20%, hsla(343, 100%, 66%, 0.8) 100%);
+	padding: 1.5em;
 }
 
 
@@ -54,6 +55,7 @@ h1 {
 
 .bloquedos {
 	background: linear-gradient(180deg, hsla(340, 100%, 66%, 0.8) 30%, hsla(12, 84%, 68%, 0.9)100%);
+	padding-top: 1em;
 	/* overflow: hidden; */
 }
 .main-content > img {
@@ -72,7 +74,9 @@ h1 {
 	padding: 5px;
 	float: left;
 }
-
+.main-content:last-child {
+	border-bottom: #262227 1px dashed;
+}
 h4 {
 	font-size: 1.5em;
 }
