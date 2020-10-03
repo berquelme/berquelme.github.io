@@ -27,6 +27,7 @@ nav > a {
 	text-decoration: none;
 	position: relative;
 	left: 200px;
+	/* margin: 0 auto; */
 }	
 .bloqueuno {
 	background: linear-gradient(180deg, hsla(330, 68%, 91%, 0.9) 20%, hsla(343, 100%, 66%, 0.8) 100%);
