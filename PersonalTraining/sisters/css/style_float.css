@@ -59,8 +59,11 @@ header {
 	float: left;
 	/* margin-left: 50px; */
 }
+input {
+	padding: 6px;
+}
 input [type=text] {
-	padding: 7px;
+	/* padding: 7px; */
 	border: none;
 	font-size: 16px;
 	font-size: "lato regular", sans-serif;
