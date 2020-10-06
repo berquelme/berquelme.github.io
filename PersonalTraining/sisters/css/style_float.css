@@ -245,13 +245,26 @@ footer {
 	padding: 25px;
 	
 }
-footer > a {
+footer a {
 	margin: 0 auto;
-	display: inline-block;
+	display: block;
 	text-decoration: none;
 	text-align: center;
+	letter-spacing: 2px;
 	margin: 0 auto;
+	color: #fff59d;
+	font-family: 'Raleway', sans-serif;
+	clear: left;
 }
-footer > p {
+footer .main-content:last-child  {
+	border-bottom: none;
+}
+
+footer .main-content:only-child p {
+	text-align: center;
 	margin: 0 auto;
+	color: rgb(6, 82, 196);
+	clear: left;
+	padding: 0;
+	width: 100%;
 }
