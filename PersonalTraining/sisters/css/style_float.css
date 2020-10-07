@@ -403,11 +403,16 @@ footer .main-content:only-child p {
 		display: block;
 		cursor: pointer;
 	}
-	menu {
+	.menu {
 		text-align: center;
 		width: 100%;
 		display: none;
 	}
+	.menu li {
+		clear: left;
+		/* margin: 0 auto;
+		text-align: center; */
+	}	
 	.menu a {
 		display:block;
 		border-bottom: 1px solid #f06292;
